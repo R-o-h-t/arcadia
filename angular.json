@@ -3,7 +3,7 @@
     "version": 1,
     "newProjectRoot": "projects",
     "projects": {
-        "arcadia": {
+        "arkadia": {
             "projectType": "application",
             "schematics": {
                 "@schematics/angular:component": {
@@ -20,7 +20,7 @@
                 "build": {
                     "builder": "@angular-devkit/build-angular:browser",
                     "options": {
-                        "outputPath": "dist/arcadia",
+                        "outputPath": "dist/arkadia",
                         "index": "src/index.html",
                         "main": "src/main.ts",
                         "polyfills": "src/polyfills.ts",
@@ -67,10 +67,10 @@
                     "builder": "@angular-devkit/build-angular:dev-server",
                     "configurations": {
                         "production": {
-                            "browserTarget": "arcadia:build:production"
+                            "browserTarget": "arkadia:build:production"
                         },
                         "development": {
-                            "browserTarget": "arcadia:build:development"
+                            "browserTarget": "arkadia:build:development"
                         }
                     },
                     "defaultConfiguration": "development"
@@ -78,7 +78,7 @@
                 "extract-i18n": {
                     "builder": "@angular-devkit/build-angular:extract-i18n",
                     "options": {
-                        "browserTarget": "arcadia:build"
+                        "browserTarget": "arkadia:build"
                     }
                 },
                 "test": {
@@ -100,5 +100,5 @@
             }
         }
     },
-    "defaultProject": "arcadia"
+    "defaultProject": "arkadia"
 }
