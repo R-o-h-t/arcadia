@@ -1,0 +1,22 @@
+    .carousel {
+        overflow: hidden;
+    }
+    
+    .carouselImg {
+        max-width: 100%;
+        height: auto;
+    }
+    
+    .carousel-caption-content {
+        margin-bottom: 50px;
+    }
+    
+    .carousel-button {
+        color: #fff !important;
+        background-color: #3E277086 !important;
+        font-family: "Syncopate" !important;
+    }
+    
+    .carousel-button:hover {
+        background-color: #F7B70333 !important;
+    }

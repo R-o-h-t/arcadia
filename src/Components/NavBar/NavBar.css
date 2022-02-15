@@ -1,0 +1,50 @@
+.NavBar {
+    position: fixed;
+    top: 0;
+    border-bottom: 2px solid #3e2770;
+    height: 68px;
+    width: 100vw;
+    z-index: 1400;
+    background: #000000ce;
+    display: inline-flex;
+    justify-content: flex-start;
+    align-items: center;
+    align-content: flex-start;
+}
+
+.nav-item-container {
+    display: inline-flex;
+}
+
+.nav-item {
+    margin: 8px 12px !important;
+    border-bottom: 2px solid #e4623200;
+    color: #F7B703;
+    font-family: "Syncopate" !important;
+    cursor: pointer !important;
+}
+
+.nav-item:hover {
+    border-bottom: 2px solid #e46232;
+}
+
+.nav-logo-nofont {
+    height: 50px;
+    width: 100px;
+    margin-left: 50px;
+    margin-right: 25px;
+}
+
+.nav-logo {
+    position: absolute;
+    height: 68px;
+    width: 130px;
+    right: 0;
+    margin-right: 100px;
+}
+
+.Title {
+    font-family: "Syncopate" !important;
+    color: #3e2770;
+    font-size: larger;
+}
